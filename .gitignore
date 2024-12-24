@@ -1,0 +1,21 @@
+# Ignore large Kaggle datasets
+data/
+*.csv
+*.zip
+*.gz
+*.tgz
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/

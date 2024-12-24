@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "salary-prediction"
+version = "0.1.0"
+description = ""
+authors = ["amanpatel123 <amanpatel19.ap@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+numpy = "^2.2.1"
+scikit-learn = "^1.6.0"
+jupyter = "^1.1.1"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
