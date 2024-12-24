@@ -2,20 +2,44 @@
 data/
 *.csv
 *.zip
-*.gz
-*.tgz
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.rar
-*.7z
 
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Jupyter notebooks checkpoints
 .ipynb_checkpoints/
 
 # Virtual environment
 venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/*.csv
+*.png
+.env
