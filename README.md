@@ -1,4 +1,14 @@
 # salary-prediction
+
+## Result and explaination
+Test API - curl https://salary-prediction-yqrk.onrender.com/predict/salary/cohere/e3cb621a-75b8-467c-803c-4325fb0c1301
+
+Models I tried 
+- Random Forest and Linear Regression. Random forest was taking a lot of time to train (even on google collab) so had to stick with linear regression. But this can be improved
+- Parsing from the web is not being done as of now. I will work on it as my next milestone
+- Web api is hosted usin render - https://render.com/
+
+
 Tempo's coding challenge
 
 Using an online job posting, help us figure out what we should be paying our future hires! You may choose one of two paths (more full-stack or more backend+ML).
