@@ -3,10 +3,18 @@
 ## Result and explaination
 Test API - curl https://salary-prediction-yqrk.onrender.com/predict/salary/cohere/e3cb621a-75b8-467c-803c-4325fb0c1301
 
-Models I tried 
-- Random Forest and Linear Regression. Random forest was taking a lot of time to train (even on google collab) so had to stick with linear regression. But this can be improved
-- Parsing from the web is not being done as of now. I will work on it as my next milestone
+
+- Models I tried:  Random Forest and Linear Regression. Random forest was taking a lot of time to train (even on google collab) so had to stick with linear regression. But this can be improved
+- Coher uses jobs.ashbyhq.com api as their job board. Looking at the network tab, they use graphlQL api to get relevant jobs. So used it to extract the data from ashbyhq and then feed it in the model
 - Web api is hosted usin render - https://render.com/
+- use Poetry for dependcy management
+- Used requiremen.txt since render won't work with poetry
+
+**How to optimize:**
+- Could use a better model to train our dataset.
+- Could also use Job Title and Job Description and tokenise them to be used as features in our training
+- When we call the ashbyhq api, we should better map them with our feature set so our model performs accurate prediction. For example coher uses Coher by AI for their tech jobs. We shoul map that to Engineerin Job or It jobs or both in order to get much better results
+- Unit testing for the API to handle each case properly
 
 
 Tempo's coding challenge
